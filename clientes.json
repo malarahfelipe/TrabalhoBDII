@@ -1,0 +1,161 @@
+[{
+    "_id": "075b135d-3d3d-49c8-b261-ede59e2b6027",
+    "nome": "Alcides Laranjeira",
+    "uf": "AP",
+    "rendamensal": 4223,
+    "cpf": "46350676530",
+    "valorMaxParcela": 1051,
+    "valorMinParcela": 1163
+}, {
+    "_id": "97854148-5f1b-4323-9749-b5ce6af87b75",
+    "nome": "Almerinda Canto",
+    "uf": "AP",
+    "rendamensal": 5705,
+    "cpf": "37971354835",
+    "valorMaxParcela": 1398,
+    "valorMinParcela": 1465
+}, {
+    "_id": "ce64a356-1d56-4e15-8bfa-2c948e7ca792",
+    "nome": "Anselmo Jácome",
+    "uf": "TO",
+    "rendamensal": 6376,
+    "cpf": "62866840003",
+    "valorMaxParcela": 1186,
+    "valorMinParcela": 1066
+}, {
+    "_id": "04099888-417e-40d0-a282-d1982717d016",
+    "nome": "Bruno Gomide",
+    "uf": "RO",
+    "rendamensal": 3680,
+    "cpf": "47548722311",
+    "valorMaxParcela": 1032,
+    "valorMinParcela": 1090
+}, {
+    "_id": "793d4218-0c7a-421f-a5bc-29860b7b9188",
+    "nome": "Cassandra Batata",
+    "uf": "ES",
+    "rendamensal": 5639,
+    "cpf": "62420767217",
+    "valorMaxParcela": 1049,
+    "valorMinParcela": 1266
+}, {
+    "_id": "4bfb0560-9716-47a4-aa38-ce3b6aaae272",
+    "nome": "Celestina Figueiró",
+    "uf": "PB",
+    "rendamensal": 3130,
+    "cpf": "96884881607",
+    "valorMaxParcela": 1107,
+    "valorMinParcela": 1114
+}, {
+    "_id": "a59bb818-8fe6-4aa0-abd4-58daf27a88eb",
+    "nome": "Celso Conceição",
+    "uf": "MG",
+    "rendamensal": 3144,
+    "cpf": "77012529911",
+    "valorMaxParcela": 1052,
+    "valorMinParcela": 1144
+}, {
+    "_id": "00ed03c4-3adc-444b-abaa-39e149afb8b6",
+    "nome": "Clarindo Frade",
+    "uf": "GO",
+    "rendamensal": 3390,
+    "cpf": "42825682918",
+    "valorMaxParcela": 1228,
+    "valorMinParcela": 1046
+}, {
+    "_id": "41c56c28-7806-4604-9f2e-dc4eaae35fcf",
+    "nome": "Davide Vázquez",
+    "uf": "MT",
+    "rendamensal": 6122,
+    "cpf": "67122478378",
+    "valorMaxParcela": 1475,
+    "valorMinParcela": 1077
+}, {
+    "_id": "51b24945-dd2d-490e-8be9-f617cf625a47",
+    "nome": "Fabrício Villégas",
+    "uf": "SP",
+    "rendamensal": 4150,
+    "cpf": "57861479323",
+    "valorMaxParcela": 1167,
+    "valorMinParcela": 1476
+}, {
+    "_id": "6dec580c-907b-49bc-bed9-38cf59684fed",
+    "nome": "Inácio Cartaxo",
+    "uf": "RN",
+    "rendamensal": 6433,
+    "cpf": "23884395823",
+    "valorMaxParcela": 1058,
+    "valorMinParcela": 1321
+}, {
+    "_id": "a8fb1cb6-1589-4874-9e07-9214c6ccf7bf",
+    "nome": "Jerónimo, Jerônimo Lage",
+    "uf": "PR",
+    "rendamensal": 2819,
+    "cpf": "81214243991",
+    "valorMaxParcela": 1051,
+    "valorMinParcela": 1097
+}, {
+    "_id": "38fb4144-81a3-48ea-90e1-44d2ad4434c3",
+    "nome": "Jerónimo, Jerônimo Loio",
+    "uf": "SP",
+    "rendamensal": 5894,
+    "cpf": "30213868571",
+    "valorMaxParcela": 1423,
+    "valorMinParcela": 1382
+}, {
+    "_id": "9f3dee8c-3b8a-4be9-8475-d7856abcc605",
+    "nome": "Judite Lisboa",
+    "uf": "DF",
+    "rendamensal": 6258,
+    "cpf": "54811870514",
+    "valorMaxParcela": 1104,
+    "valorMinParcela": 1164
+}, {
+    "_id": "788b37fd-13f1-4b1b-9c69-e75169762d41",
+    "nome": "Lénia Figueira",
+    "uf": "RN",
+    "rendamensal": 4069,
+    "cpf": "67638742516",
+    "valorMaxParcela": 1216,
+    "valorMinParcela": 1266
+}, {
+    "_id": "6d7b538b-9852-4ce4-aebd-55d072707a51",
+    "nome": "Lígia Malta",
+    "uf": "SP",
+    "rendamensal": 5656,
+    "cpf": "74820796615",
+    "valorMaxParcela": 1101,
+    "valorMinParcela": 1176
+}, {
+    "_id": "84d95acb-5cc1-4906-b1a8-bebe3954ad1d",
+    "nome": "Máxima Peláez",
+    "uf": "SP",
+    "rendamensal": 2506,
+    "cpf": "87661354276",
+    "valorMaxParcela": 1222,
+    "valorMinParcela": 1083
+}, {
+    "_id": "5a71aed0-dda8-4bef-abbd-ca927176f2e9",
+    "nome": "Sidónio Faro",
+    "uf": "PB",
+    "rendamensal": 3417,
+    "cpf": "66758375323",
+    "valorMaxParcela": 1394,
+    "valorMinParcela": 1036
+}, {
+    "_id": "9047e3bd-3e59-49ae-a600-cdd382dcb71a",
+    "nome": "Viriato Ataí",
+    "uf": "RS",
+    "rendamensal": 5625,
+    "cpf": "07877817460",
+    "valorMaxParcela": 1084,
+    "valorMinParcela": 1096
+}, {
+    "_id": "ac7ef1e2-98d9-4b69-824b-9328d1432158",
+    "nome": "Énia Barata",
+    "uf": "AP",
+    "rendamensal": 3390,
+    "cpf": "36251383879",
+    "valorMaxParcela": 1018,
+    "valorMinParcela": 1089
+}]

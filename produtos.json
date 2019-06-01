@@ -1,0 +1,121 @@
+[{
+    "_id": "6e93876f-4cb5-4ff7-ba7f-267c3ace1fd4",
+    "nome": "Moto G6 Plus",
+    "descricao": "Motorola comparada pela lenovo",
+    "preco": 2186,
+    "qtdestoque": 156
+}, {
+    "_id": "129f25c5-9862-4727-af71-d2c99fe21400",
+    "nome": "J5 Pro",
+    "descricao": "Se não é Samsung é roubado",
+    "preco": 3524,
+    "qtdestoque": 387
+}, {
+    "_id": "085e462c-d7fb-4e7d-9e0e-c90bbfb4be3f",
+    "nome": "Moto X4",
+    "descricao": "Motorola + Eike Batista + 4teto Fantáscico",
+    "preco": 1018,
+    "qtdestoque": 309
+}, {
+    "_id": "c6e884af-6f91-4625-b27b-519952a5539e",
+    "nome": "Lg Q6",
+    "descricao": "Achei que fosse marca de TV",
+    "preco": 4971,
+    "qtdestoque": 137
+}, {
+    "_id": "e764e39d-d7b1-4fa0-a9e7-99ae753448a0",
+    "nome": "Moto G5s",
+    "descricao": "Like a G6, ops...",
+    "preco": 5086,
+    "qtdestoque": 61
+}, {
+    "_id": "c1d62fc6-8923-4c4c-a4e8-4458c8d65bfb",
+    "nome": "J7 Pro",
+    "descricao": "Deve ser Samsung sim",
+    "preco": 4817,
+    "qtdestoque": 292
+}, {
+    "_id": "31195585-07c2-4746-849e-23931c10efe4",
+    "nome": "Asus Zenfone",
+    "descricao": "Agora achei que fosse marca de notebook",
+    "preco": 2167,
+    "qtdestoque": 430
+}, {
+    "_id": "fa7ae399-6dee-42b1-ac26-df6b3e9fbe98",
+    "nome": "Moto G6",
+    "descricao": "Agora sim LIKE A G6",
+    "preco": 3865,
+    "qtdestoque": 145
+}, {
+    "_id": "2d004cfe-db3e-4fdc-9c36-b5aa34fd9870",
+    "nome": "Galaxy S9",
+    "descricao": "Agora é Samsung n pode se",
+    "preco": 3640,
+    "qtdestoque": 194
+}, {
+    "_id": "cd78dca0-e0d8-420d-afc2-f384b5241c06",
+    "nome": "Iphone 8 Plus",
+    "descricao": "Custa só 3 rins",
+    "preco": 3121,
+    "qtdestoque": 266
+}, {
+    "_id": "532a6077-c812-4419-8908-dec068c47198",
+    "nome": "PS4",
+    "descricao": "Qualidade de vida",
+    "preco": 3342,
+    "qtdestoque": 404
+}, {
+    "_id": "36e326e7-d638-4d5f-97e9-0bd6a0069574",
+    "nome": "Xbox one",
+    "descricao": "Ta ali tbm",
+    "preco": 5381,
+    "qtdestoque": 267
+}, {
+    "_id": "9d5d50b5-ae14-43f2-893e-2c1c9e507b63",
+    "nome": "Ipad",
+    "descricao": "Bom pra ver netflix",
+    "preco": 4715,
+    "qtdestoque": 271
+}, {
+    "_id": "b4dd0a8d-2530-45fc-bb5b-7b58fb16cba9",
+    "nome": "Samsung galaxy s4",
+    "descricao": "Definitivamente agora é Samsung",
+    "preco": 1539,
+    "qtdestoque": 252
+}, {
+    "_id": "88d42811-0245-4b83-85f7-1a71d3029e70",
+    "nome": "Nikon d5100",
+    "descricao": "Câmera fotográfica nesse século pf ne",
+    "preco": 2922,
+    "qtdestoque": 232
+}, {
+    "_id": "26b6b12b-0ea1-444b-8e34-38414f002777",
+    "nome": "CHURRASCO COMPLETO 3 FRANGO",
+    "descricao": "Carne Boa",
+    "preco": 34,
+    "qtdestoque": 404
+}, {
+    "_id": "f86a160b-5c8b-478a-ba8a-25b7495eec34",
+    "nome": "RODIZIO CHIMARRON",
+    "descricao": "Se comer dms passa mal",
+    "preco": 40,
+    "qtdestoque": 267
+}, {
+    "_id": "4530a6d3-b73e-40bf-9029-dc0159e55ddc",
+    "nome": "SSD 480 GB KINGSTON",
+    "descricao": "Ta caindo o preco...",
+    "preco": 350,
+    "qtdestoque": 2792
+}, {
+    "_id": "1f8c05c1-f361-42b0-9789-7e833404c7dc",
+    "nome": "GTX 2070 TI",
+    "descricao": "Quero ganhar uma",
+    "preco": 1539,
+    "qtdestoque": 252
+}, {
+    "_id": "e8bac72c-da2b-4c00-8b5d-5f54eff9cb32",
+    "nome": "VUVUZELA",
+    "descricao": "Só pra lembrar da copa",
+    "preco": 29,
+    "qtdestoque": 232
+}]

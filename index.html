@@ -1,0 +1,205 @@
+<html>
+
+<body>
+    <div>
+        PRODUTOS CONSOLE: <input type="button" onclick="mostrarProdutos()">
+        VENDAS   CONSOLE: <input type="button" onclick="mostrarVendas()">
+        CLIENTES CONSOLE: <input type="button" onclick="mostrarClientes()">
+    </div>
+    <script type="text/javascript">
+        //#regionproperties
+        function gera_random(n) {
+            var ranNum = Math.round(Math.random() * n);
+            return ranNum;
+        }
+
+        function mod(dividendo, divisor) {
+            return Math.round(dividendo - (Math.floor(dividendo / divisor) * divisor));
+        }
+
+        function cpf() {
+            var n = 9;
+            var n1 = gera_random(n);
+            var n2 = gera_random(n);
+            var n3 = gera_random(n);
+            var n4 = gera_random(n);
+            var n5 = gera_random(n);
+            var n6 = gera_random(n);
+            var n7 = gera_random(n);
+            var n8 = gera_random(n);
+            var n9 = gera_random(n);
+            var d1 = n9 * 2 + n8 * 3 + n7 * 4 + n6 * 5 + n5 * 6 + n4 * 7 + n3 * 8 + n2 * 9 + n1 * 10;
+            d1 = 11 - (mod(d1, 11));
+            if (d1 >= 10) d1 = 0;
+            var d2 = d1 * 2 + n9 * 3 + n8 * 4 + n7 * 5 + n6 * 6 + n5 * 7 + n4 * 8 + n3 * 9 + n2 * 10 + n1 * 11;
+            d2 = 11 - (mod(d2, 11));
+            if (d2 >= 10) d2 = 0;
+
+            return '' + n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + d1 + d2;
+        }
+
+        function uuidv4() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0,
+                    v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+        //#endregion
+        let clientes = [
+            "Alcides Laranjeira",
+            "Almerinda Canto",
+            "Anselmo Jácome",
+            "Bruno Gomide",
+            "Cassandra Batata",
+            "Celestina Figueiró",
+            "Celso Conceição",
+            "Clarindo Frade",
+            "Davide Vázquez",
+            "Fabrício Villégas",
+            "Inácio Cartaxo",
+            "Jerónimo, Jerônimo Lage",
+            "Jerónimo, Jerônimo Loio",
+            "Judite Lisboa",
+            "Lénia Figueira",
+            "Lígia Malta",
+            "Máxima Peláez",
+            "Sidónio Faro",
+            "Viriato Ataí",
+            "Énia Barata"
+        ];
+        let ufs = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE",
+            "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"
+        ];
+        let randomSalario = () => Math.floor(Math.random() * 5000) + 2000;
+        let randomEstado = () => ufs[Math.floor(Math.random() * ufs.length)];
+        let clientesFinais = [];
+        for (let cliente of clientes)
+            clientesFinais.push({
+                _id: uuidv4(),
+                nome: cliente,
+                uf: randomEstado(),
+                rendamensal: randomSalario(),
+                cpf: cpf(),
+                valorMaxParcela: Math.floor(Math.random() * 500) + 1000,
+                valorMinParcela: Math.floor(Math.random() * 500) + 1000
+            })
+
+        let produtos = [{
+                nome: "Moto G6 Plus",
+                descricao: 'Motorola comparada pela lenovo'
+            },
+            {
+                nome: "J5 Pro",
+                descricao: 'Se não é Samsung é roubado'
+            },
+            {
+                nome: "Moto X4",
+                descricao: 'Motorola + Eike Batista + 4teto Fantáscico'
+            },
+            {
+                nome: "Lg Q6",
+                descricao: 'Achei que fosse marca de TV'
+            },
+            {
+                nome: "Moto G5s",
+                descricao: 'Like a G6, ops...'
+            },
+            {
+                nome: "J7 Pro",
+                descricao: 'Deve ser Samsung sim'
+            },
+            {
+                nome: "Asus Zenfone",
+                descricao: 'Agora achei que fosse marca de notebook'
+            },
+            {
+                nome: "Moto G6",
+                descricao: 'Agora sim LIKE A G6'
+            },
+            {
+                nome: "Galaxy S9",
+                descricao: 'Agora é Samsung n pode se'
+            },
+            {
+                nome: "Iphone 8 Plus",
+                descricao: 'Custa só 3 rins'
+            },
+            {
+                nome: "PS4",
+                descricao: 'Qualidade de vida'
+            },
+            {
+                nome: "Xbox one",
+                descricao: 'Ta ali tbm'
+            },
+            {
+                nome: "Ipad",
+                descricao: 'Bom pra ver netflix'
+            },
+            {
+                nome: "Samsung galaxy s4",
+                descricao: 'Definitivamente agora é Samsung'
+            },
+            {
+                nome: "Nikon d5100",
+                descricao: 'Câmera fotográfica nesse século pf ne'
+            }
+        ];
+        let randomPreco = () => Math.floor(Math.random() * 4500) + 1000;
+        let randomEstoque = () => Math.floor(Math.random() * 450) + 10;
+        let produtosFinais = [];
+        for (let produto of produtos)
+            produtosFinais.push({
+                _id: uuidv4(),
+                nome: produto.nome,
+                descricao: produto.descricao,
+                preco: randomPreco(),
+                qtdestoque: randomEstoque()
+            })
+
+
+
+
+        let randomHora = () => (Math.floor(Math.random() * 24) + 0).toString() + ":00";
+        let randomProduto = () => produtosFinais[Math.floor(Math.random() * produtosFinais.length)];
+        let randomCliente = () => clientesFinais[Math.floor(Math.random() * clientesFinais.length)];
+        let idsVendas = Array.from({
+            length: 20
+        }, (i) => i = uuidv4());
+        let randomParcelas = (idVenda) => Array.from({
+                length: (Math.floor(Math.random() * 6) + 3)
+            })
+            .map(item => ({
+                _id: uuidv4(),
+                codven: idVenda,
+                valor: randomSalario(),
+                dataVencimento: Date.now() + 30000000
+            }));
+
+        let randomItens = (idVenda) => Array.from({
+                length: (Math.floor(Math.random() * 16) + 6)
+            })
+            .map(item => ({
+                _id: uuidv4(),
+                idvenda: idVenda,
+                idproduto: randomProduto()._id,
+                qtd: (Math.floor(Math.random() * 24392) + 29)
+            }));
+        let vendas = [];
+        for (let i = 0; i <= 19; i++)
+            vendas.push({
+                _id: idsVendas[i],
+                data: Date.now() + Math.floor(Math.random() * 4500) + 1000,
+                hora: randomHora(),
+                idcliente: randomCliente()._id,
+                parcelas: randomParcelas(idsVendas[i]),
+                itens: randomItens(idsVendas[i])
+            })
+        let mostrarClientes = () => (console.log('clientes: ', JSON.stringify(clientesFinais)));
+        let mostrarProdutos = () => (console.log('produto: ', JSON.stringify(produtosFinais)));
+        let mostrarVendas = () => (console.log('vendas: ', JSON.stringify(vendas)));
+    </script>
+</body>
+
+</html>
